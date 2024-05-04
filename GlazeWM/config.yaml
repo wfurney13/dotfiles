@@ -6,8 +6,8 @@ focus_borders:
     enabled: false
 
 gaps:
-  inner_gap: 62
-  outer_gap: 62
+  inner_gap: 6
+  outer_gap: "42 5 42 5" 
 
 general:
   show_floating_on_top: true
@@ -216,7 +216,7 @@ window_rules:
     match_class_name: "Chrome_WidgetWin_1|MozillaDialogClass"
 
   # Some applications (eg. Steam) have borders that extend past the normal border size.
-  - command: "resize borders 0px -7px -7px -7px"
+  - command: "set floating"
     match_process_name: "steam"
 
 keybindings:
@@ -256,8 +256,8 @@ keybindings:
 
   # As an alternative to the resize keybindings above, resize mode enables resizing via
   # HJKL or arrow keys. The binding mode is defined above with the name "resize".
-  - command: "binding mode resize"
-    binding: "Alt+R"
+  #- command: "binding mode resize"
+  #  binding: "Alt+R"
 
   # Change tiling direction. This determines where new tiling windows will be inserted.
   # - command: "tiling direction horizontal"
@@ -298,6 +298,9 @@ keybindings:
   # - command: "exec %LocalAppData%\\Microsoft\\WindowsApps\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wt.exe"
   - command: "exec S:/bin/Alacritty-v0.13.2-portable.exe" 
     binding: "Alt+Enter"
+    
+  - command: "exec 'C:/Program Files/LibreWolf/librewolf.exe'"
+    binding: "Alt+R"
 
   - command: "exec %UserProfile%\\scoop\\apps\\firefox\\current\\firefox.exe" 
     binding: "Alt+OemPipe"
