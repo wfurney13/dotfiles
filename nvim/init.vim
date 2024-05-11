@@ -4,7 +4,7 @@ noremap k gj
 noremap j gk
 noremap <Down> gj
 noremap <Up> gk
-noremap <C-w> <Cmd>BufferClose<CR>
+noremap <C-w> <Cmd>BufferClose!<CR>
 noremap <C-t> <Cmd>BufferNext<CR>
 noremap <C-p> <Cmd>BufferPrevious<CR>
 noremap <C-o> <Cmd>NvimTreeOpen<CR>
