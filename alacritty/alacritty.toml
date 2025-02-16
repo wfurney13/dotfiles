@@ -46,7 +46,7 @@ padding = { x = 10, y = 10 }  # Default: x = 0, y = 0
 dynamic_padding = false  # Default: false
 
 # Window decoration#s
-decorations = "Full"  # Default: "Full"
+decorations = "None"  # Default: "Full"
 
 # Opacity
 opacity = 1.0  # Default: 1.0
@@ -94,7 +94,7 @@ multiplier = 3  # Default: 3
 [font]
 
 # Normal font style
-normal = { family = "Iosevka" }  # Default for Linux/BSD: "monospace", Regular
+normal = { family = "Classic Console Neue" }  # Default for Linux/BSD: "monospace", Regular
 
 # Bold font style
 #bold = { style = "Bold" }  # Inherits family from normal, Default style: Bold

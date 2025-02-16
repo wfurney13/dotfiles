@@ -1,13 +1,13 @@
 focus_borders: 
   active: 
-    enabled: true
+    enabled: false
     color: "#850075"
   inactive: 
     enabled: false
 
 gaps:
-  inner_gap: 6
-  outer_gap: "42 5 42 5" 
+  inner_gap: 12
+  outer_gap: 24 
 
 general:
   show_floating_on_top: true
@@ -16,12 +16,13 @@ general:
   # launch_windows: < Tiled | Floating | Minimized | Maxamized >
 
 horiz_bar: &horizontal_bar
+  enabled: false
   offset_x: 62
   offset_y: -12
   font_family: "JetBrainsMonoNL NFM Regular"
   height: 30 
   border_radius: 10
-  position: "bottom"
+  position: "top"
   background: "#1c2128"
   foreground: "#f0f6fc"
   font_size: "13px"

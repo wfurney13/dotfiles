@@ -12,7 +12,7 @@
 		box-shadow: none !important;
 		display: flex !important;
 		flex-direction: column !important;
-		font-family: 'Iosevka Medium';
+		font-family: 'Lekton Nerd Font Mono';
 	}
 	
 	#urlbar-input-container {
@@ -20,7 +20,7 @@
 	}
 	
 	#personal-bookmarks {
-		font-family: 'Iosevka Medium';
+		font-family: 'Lekton Nerd Font Mono';
 	}
 	#urlbar > .urlbarView {
 		order: 1;
@@ -38,7 +38,7 @@
 	
 	#tabbrowser-tabs, .tab-stack { min-height: 28px !important; }
 	.tabbrowser-tab { font-size: 130%; }
-	.tabbrowser-tab { font-family: 'Iosevka Medium'; }
+	.tabbrowser-tab { font-family: 'Lekton Nerd Font Mono'; }
 
 	.tab-content { padding: 0 5px; }
 	.tab-close-button .toolbarbutton-icon { width: 12px !important; height: 12px !important; }
