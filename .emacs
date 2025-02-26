@@ -1,3 +1,31 @@
+;function calls
+(menu-bar-mode -1)
+
+(scroll-bar-mode -1)
+
+(tool-bar-mode -1)
+
+(global-display-line-numbers-mode)
+
+;variable sets
+(setq visible-bell 1)
+
+(setq inhibit-startup-screen t)
+
+(setq compilation-ask-about-save nil)
+
+;keybinds
+(global-unset-key (kbd "C-x C-c"))
+
+(global-set-key [f4] 'compile)
+
+
+; udfs
+(lambda (file)
+    (y-or-n-p (format "Really delete %s? " file)))
+
+;;; system generated ;;;
+
 ;;; -*- lexical-binding: t -*-
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -17,26 +45,3 @@
  ;; If there is more than one, they won't work right.
  )
 (put 'upcase-region 'disabled nil)
-
-(menu-bar-mode -1)
-
-(scroll-bar-mode -1)
-
-(tool-bar-mode -1)
-
-(global-display-line-numbers-mode)
-
-(setq visible-bell 1)
-
-(setq inhibit-startup-screen t)
-
-(setq compilation-ask-about-save nil)
-
-(setq confirm-kill-emacs yes-or-no-p)
-
-(global-unset-key (kbd "C-x C-c"))
-
-(global-set-key [f4] 'compile)
-
-(lambda (file)
-    (y-or-n-p (format "Really delete %s? " file)))
